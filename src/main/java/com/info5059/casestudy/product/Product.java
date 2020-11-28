@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 @Entity
 @Data
 //@GenericGenerator(name = "sysuuid", strategy = "uuid")
-public class Product {
+ public class Product {
     @Id
     //  @GeneratedValue(strategy = GenerationType.IDENTITY)
     //  @GeneratedValue(generator = "system_uuid")
@@ -21,6 +21,9 @@ public class Product {
     private int eoq;
     private int qoh;
     private int qoo;
-    private String qrcode;
+
+    @Lob
+    @Basic(optional = true)
+    private byte[] qrcode;
     private String qrcodetxt;
 }

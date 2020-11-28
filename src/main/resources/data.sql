@@ -12,7 +12,7 @@ INSERT INTO Product (Id, VendorId, Name, CostPrice, msrp, rop, eoq, qoh, qoo, Qr
 INSERT INTO Product (Id, VendorId, Name, CostPrice, msrp, rop, eoq, qoh, qoo, QrCode, QrCodeTxt) VALUES('14X46', 1, 'GadgetSec', 359.99, 329.98, 5, 5, 10, 0, '', '');
 INSERT INTO Product (Id, VendorId, Name, CostPrice, msrp, rop, eoq, qoh, qoo, QrCode, QrCodeTxt) VALUES('14X47', 1, 'GadgetTh', 359.99, 329.98, 5, 5, 10, 0, '', '');
 INSERT INTO Product (Id, VendorId, Name, CostPrice, msrp, rop, eoq, qoh, qoo, QrCode, QrCodeTxt) VALUES('14X48', 1, 'GadgetFith', 359.99, 329.98, 5, 5, 10, 0, '', '');
-INSERT INTO Product (Id, VendorId, Name, CostPrice, msrp, rop, eoq, qoh, qoo, QrCode, QrCodeTxt) VALUES('15X01', 2, 'WhatEverItis', 359.99, 329.98, 5, 5, 10, 0, '', '');
-INSERT INTO Product (Id, VendorId, Name, CostPrice, msrp, rop, eoq, qoh, qoo, QrCode, QrCodeTxt) VALUES('15X02', 2, 'Fresh Air', 10.00,0.00, 5, 5, 10, 0, '', '');
-INSERT INTO Product (Id, VendorId, Name, CostPrice, msrp, rop, eoq, qoh, qoo, QrCode, QrCodeTxt) VALUES('16X01', 3, 'Fresh Meat', 100.89,77.89, 5, 5, 10, 0, '', '');
+INSERT INTO Product (Id, VendorId, Name, CostPrice, msrp, rop, eoq, qoh, qoo, QrCode, QrCodeTxt) VALUES('15X01', 4, 'WhatEverItis', 359.99, 329.98, 5, 5, 10, 0, '', '');
+INSERT INTO Product (Id, VendorId, Name, CostPrice, msrp, rop, eoq, qoh, qoo, QrCode, QrCodeTxt) VALUES('15X02', 4, 'Fresh Air', 10.00,0.00, 5, 5, 10, 0, '', '');
+INSERT INTO Product (Id, VendorId, Name, CostPrice, msrp, rop, eoq, qoh, qoo, QrCode, QrCodeTxt) VALUES('16X01', 4, 'Fresh Meat', 100.89,77.89, 5, 5, 10, 0, '', '');
 

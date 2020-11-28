@@ -192,11 +192,11 @@ public abstract class ReportPDFGenerator extends AbstractPdfView {
 //                            .setBorder(Border.NO_BORDER)
                             .setTextAlignment(TextAlignment.RIGHT);
                     expenseTable.addCell(cell);
-                    cell = new Cell().add(new Paragraph(formatter.format(BigDecimal.valueOf(line.getQty()).multiply(line.getPrice()))))
+                    cell = new Cell().add(new Paragraph(formatter.format(line.getPrice())))
 //                            .setBorder(Border.NO_BORDER)
                             .setTextAlignment(TextAlignment.RIGHT);
                     expenseTable.addCell(cell);
-                    tot = tot.add(BigDecimal.valueOf(line.getQty()).multiply(line.getPrice()), new MathContext(8, RoundingMode.UP));
+                    tot = tot.add(line.getPrice(), new MathContext(8, RoundingMode.UP));
                 }
             }
 

@@ -28,8 +28,6 @@ public class ReportPDFController {
         // get formatted pdf as a stream
 
 //        String reportId = Long.toString(repid);
-        System.out.println("In report api");
-        System.out.println( request.getParameter("repid"));
 //        System.out.println(reportId);
         ByteArrayInputStream bis = ReportPDFGenerator.generateReport(request.getParameter("poid"), poDAO, vendorRepository, productRepository);
         HttpHeaders headers = new HttpHeaders();
