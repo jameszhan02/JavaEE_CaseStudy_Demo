@@ -211,14 +211,14 @@ public abstract class ReportPDFGenerator extends AbstractPdfView {
                     .setBorder(Border.NO_BORDER)
                     .setTextAlignment(TextAlignment.RIGHT.RIGHT);
             expenseTable.addCell(cell);
-            cell = new Cell().add(new Paragraph(formatter.format(BigDecimal.valueOf(0.15).multiply(tot))))
+            cell = new Cell().add(new Paragraph(formatter.format(BigDecimal.valueOf(0.13).multiply(tot))))
                     .setTextAlignment(TextAlignment.RIGHT.RIGHT);
             expenseTable.addCell(cell);
             cell = new Cell(1, 4).add(new Paragraph("PO Total: "))
                     .setBorder(Border.NO_BORDER)
                     .setTextAlignment(TextAlignment.RIGHT.RIGHT);
             expenseTable.addCell(cell);
-            cell = new Cell().add(new Paragraph(formatter.format(BigDecimal.valueOf(1.15).multiply(tot))))
+            cell = new Cell().add(new Paragraph(formatter.format(BigDecimal.valueOf(1.13).multiply(tot))))
                     .setTextAlignment(TextAlignment.RIGHT.RIGHT)
                     .setBackgroundColor(ColorConstants.YELLOW);
             expenseTable.addCell(cell);
